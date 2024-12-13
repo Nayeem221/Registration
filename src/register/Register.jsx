@@ -35,9 +35,9 @@ const Register = () => {
    </div>
    <button className='flex justify-center items-center w-[300px] lg:w-[640px] bg-[#8699DA] py-[24px] px-[32px] rounded-[80px] mt-[65px] text-white'>Sign In</button>
    <div className='pr-[300px] lg:pr-0  lg:flex flex justify-center w-[640px]   items-center mt-8 mb-[15px]  lg:justify-center lg:items-center lg:mt-[54px] lg:mb-[16px]'>
-    <hr className='lg:w-[240px] w-[50px] h-[0px]  border-2 border-[#789ADE] text-[#789ADE]' />
+    <hr className='lg:w-[240px] w-[50px] h-[0px]  border-2 border-[#C8D3F9] text-[#C8D3F9]' />
     <h3 className=' text-[20px] font-nunito font-normal   '>or continue with</h3>
-    <hr className='lg:w-[240px]    w-[50px] h-[0px] text-[#789ADE] border-2 border-[#789ADE] ' />
+    <hr className='lg:w-[240px]    w-[50px] h-[0px] text-[#C8D3F9] border-2 border-[#C8D3F9] ' />
    </div>
    <div className='flex justify-center items-center gap-[60px] '>
     <div className='lg:w-[120px] lg:h-[80px] w-[50px] h-[50px] border-2 border-[#789ADE] rounded-[8px] flex justify-center items-center' >

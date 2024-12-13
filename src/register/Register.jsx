@@ -6,8 +6,8 @@ const Register = () => {
   return (
     <>
     <section className='registration pt-[101px] pb-[109px]  '>
-      <div className="container flex flex-col lg:flex-row justify-center  lg:flex lg:justify-between">
-        <div className="textpart ">
+      <div className="container flex flex-col lg:flex-row justify-center  lg:flex lg:gap-[82px]">
+        <div className="textpart  ">
    <h1 className='text-[36px] font-nunito font-extrabold mb-[21px]'>WELCOME BACK!</h1>
    <div className='flex gap-1'>
     <p className=' text-[24px] font-medium font-nunito mb-[64px]'>Don’t have a account,</p>
@@ -51,8 +51,9 @@ const Register = () => {
     </div>
    </div>
         </div>
-        <div className="imagepart lg:pr-0 pr-12">
+        <div className="imagepart  lg:pr-0 pr-12 lg:mt-[101px] lg:w-[783px]">
       <img src="images/Image.png" alt="" />
+      
         </div>
       </div>
     </section>

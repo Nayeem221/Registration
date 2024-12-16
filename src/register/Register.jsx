@@ -5,9 +5,9 @@ const Register = () => {
   return (
     <>
       <section className="registration pt-[101px] pb-[109px]">
-        <div className="container flex flex-col lg:flex-row justify-center lg:gap-[82px]">
-          <div className="textpart">
-            <h1 className="text-[36px] font-nunito font-extrabold mb-[21px]">WELCOME BACK!</h1>
+        <div className="container  sm:flex sm:flex-col sm:justify-center sm:items-center sm:m-auto flex flex-col lg:flex-row justify-center lg:gap-[82px]">
+          <div className="textpart pl-[40px] sm:flex sm:flex-col sm:justify-center sm:items-center sm:m-auto ">
+            <h1 className="text-[36px] md:text-center font-nunito font-extrabold mb-[21px]">WELCOME BACK!</h1>
             <div className="flex gap-1">
               <p className="text-[24px] font-medium font-nunito mb-[64px]">Don’t have an account,</p>
               <button className="text-[24px] font-medium font-nunito mb-[64px]">Sign up</button>
@@ -56,10 +56,10 @@ const Register = () => {
               Sign In
             </button>
 
-            <div className="pr-[300px] lg:pr-0 lg:flex flex justify-center w-[640px] items-center mt-8 mb-[15px] lg:justify-center lg:items-center lg:mt-[54px] lg:mb-[16px]">
-              <hr className="lg:w-[240px] w-[50px] h-[0px] border-2 border-[#C8D3F9] text-[#C8D3F9]" />
-              <h3 className="text-[20px] font-nunito font-normal">or continue with</h3>
-              <hr className="lg:w-[240px] w-[50px] h-[0px] text-[#C8D3F9] border-2 border-[#C8D3F9]" />
+            <div className="pr-[300px]  sm:mx-auto lg:pr-0 lg:flex flex justify-center w-[640px] items-center mt-8 mb-[15px] lg:justify-center lg:items-center lg:mt-[54px] lg:mb-[16px]">
+              <hr className="sm:text-center  lg:w-[240px] w-[50px] h-[0px] border-2 border-[#C8D3F9] text-[#C8D3F9]" />
+              <h3 className="sm:text-center text-[20px] font-nunito font-normal">or continue with</h3>
+              <hr className="sm:text-center  lg:w-[240px] w-[50px] h-[0px] text-[#C8D3F9] border-2 border-[#C8D3F9]" />
             </div>
 
             <div className="flex justify-center items-center gap-[60px]">

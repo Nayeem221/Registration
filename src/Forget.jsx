@@ -28,8 +28,8 @@ const Forget = () => {
             .catch((error) => {
               const errorCode = error.code;
               const errorMessage = error.message;
-           if(errorCode=='Enter a valid email'){
-            toast.error('🦄 Wow so easy!',{
+           if(errorCode=='auth/invalid-email'){
+            toast.error('Enter a valid email!',{
                 position: "top-right",
                 autoClose: 5000,
                 hideProgressBar: false,

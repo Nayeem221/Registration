@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { getAuth, sendPasswordResetEmail } from "firebase/auth";
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Bounce, toast } from 'react-toastify';
 const Forget = () => {
     const navigate=useNavigate()
@@ -48,8 +48,8 @@ const Forget = () => {
     const auth = getAuth();
   return (
     <>
-     /* From Uiverse.io by danilppzz */ 
-     <div className='flex justify-center items-center h-[100vh]'>
+    
+     <div className='flex justify-center items-center h-[100vh] flex-col gap-5'>
 <div className="flex h-[34px] text-[14px] text-white/60 justify-center ">
   <input onChange={(e)=>Setreset(e.target.value)}
     className="input w-[200px] bg-[#09090b] text-[#f4f4f5] px-3 py-1 rounded-l-lg border border-white/10 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-[#09090b] transition-all duration-150 ease-in-out"
@@ -63,6 +63,7 @@ const Forget = () => {
     Send
   </button>
 </div>
+ <Link to={'/'}>back to registration</Link>
 </div>
     </>
   )

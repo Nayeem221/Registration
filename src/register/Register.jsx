@@ -185,7 +185,7 @@ const handlegoogle=()=>{
               <hr className="sm:text-center  lg:w-[240px] w-[50px] h-[0px] text-[#C8D3F9] border-2 border-[#C8D3F9]" />
             </div>
 
-            <div className="flex justify-center items-center gap-[60px]">
+            <div onClick={handlegoogle} className=" cursor-pointer  flex justify-center items-center gap-[60px]">
               <div className="lg:w-[120px] lg:h-[80px] w-[50px] h-[50px] border-2 border-[#789ADE] rounded-[8px] flex justify-center items-center">
                 <img className='cursor-pointer'  onClick={handlegoogle} src="images/google.png" alt="Google" />
               </div>

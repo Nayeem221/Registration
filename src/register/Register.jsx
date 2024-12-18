@@ -48,7 +48,7 @@ const handlesubmit=(e)=>{
     sendEmailVerification(auth.currentUser)
   .then(() => {
     navigate('/login')
-    toast.warn('Email verification sent !',{
+    toast.success('Email Verification Sent!',{
       position: "top-right",
       autoClose: 1000,
       hideProgressBar: false,

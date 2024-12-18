@@ -8,6 +8,7 @@ import { Route } from 'react-router-dom';
 
 import { createRoutesFromElements,createBrowserRouter} from "react-router-dom";
 import { RouterProvider } from 'react-router';
+import Forget from './Forget';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +16,7 @@ const router = createBrowserRouter(
 
     <Route path="/" element={<Register />}/>
     <Route path="/login" element={<Login />}/>
+    <Route path="/forget" element={<Forget />}/>
     
       
     </Route>

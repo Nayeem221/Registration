@@ -4,7 +4,7 @@ import { getAuth, createUserWithEmailAndPassword, sendEmailVerification } from "
 import { FaEye } from "react-icons/fa";
 import { Bounce, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { GoogleAuthProvider } from "firebase/auth";
 import {  signInWithPopup } from "firebase/auth";
 import {  CSSProperties } from "react";
@@ -165,7 +165,7 @@ const handlegoogle=()=>{
                 </label>
               </div>
               <h3 className="text-[20px] font-nunito font-semibold text-[#8699DA]  cursor-pointer">
-                Forget password?
+              <Link to={'/forget'}>Forget password?</Link>  
               </h3>
             </div>
             {/* set */}
